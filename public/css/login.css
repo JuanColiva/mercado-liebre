@@ -1,0 +1,71 @@
+
+main{
+    background-color: #ebebeb;
+
+ height: 100%;
+ width: 100%;
+ text-align: center;
+ margin: 10px;
+ color: black;
+ padding:4rem;
+}
+
+.ingresa{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+div{
+    padding: 5%;
+}
+.boton{
+  background-color: blue;
+    box-sizing: border-box;
+    display: flex;
+    padding: .6rem;
+    width: 50%;
+    border: 1px solid;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+
+}
+.boton button{
+    background-color: blue;
+    border: none;
+    color: white;
+    
+}
+.ingresa label{
+    color: #7d8994;
+    display: block;
+    margin-bottom: 10px;
+}
+.ingresa input,
+.ingresa select{
+    border: 1px solid #CED6E0;
+    font-size: 15px;
+    width: 30%;
+
+}
+
+@media screen and (min-width:1200px){
+    main{
+        background-color: #ebebeb;
+    
+     height: 100%;
+     width: 100%;
+     text-align: center;
+     margin: 10px;
+     color: black;
+     padding: 15rem;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .ingresa label{
+        color: #7d8994;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
